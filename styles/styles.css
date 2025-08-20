@@ -1,0 +1,150 @@
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 300;
+}
+.color{
+color: #FD6E0A
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 1000;
+}
+nav ul li{
+    list-style: none;
+ display: inline-block;
+ margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.dark-02{
+    color: red;
+}
+.btn-01{
+    background-color: aqua;
+    color: blue;
+    font: bolder;
+    font-size: 25px;
+    border: none;
+     border-radius: 5px;
+     padding: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.banner-title{
+    font-size: 20px;
+    font-weight: 200px;
+}
+.banner-content{
+    font-size: 40px;
+    font-weight: 800;
+}
+.banner-image{
+    max-width: 300px;
+}
+.header {
+    background-image: url("../portfolio-resources/images/header_bg.png"), url(../portfolio-resources/images/images.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right , top left;
+    background-size: 700px, 100px;   
+}
+
+.section-description{
+    font-size: 18px;
+    font-weight: 200;
+}
+.secondary-bg{
+    background-color: aquamarine;
+}
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}  
+.about-me{
+border-radius: 100px;
+padding: 10px 50px ;
+max-height: 300px;
+}
+.item-title{
+    font-size: large;
+    font-weight: bold
+}
+.item-description{
+    font-size: small;
+    font-weight: 300
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.what-do{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.item-down{
+    display: flex;
+    gap: 20px;
+}
+.item-list{
+    font-size: larger;
+    font-weight: 300;
+}
+.item1{
+    padding: 30px;
+    box-shadow: 0px 10px 50px 0px green ;
+}
+.resume12{
+    font-size: 50px;
+    font-weight: 200px;
+}
+.resume-column{
+    text-align: left;
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+footer {
+    background-color: aquamarine;
+    padding: 80px 180px;
+display: flex;
+gap: 100px;
+}
+
+footer p {
+    font-size: 10px;
+    color: blue;
+}
+.footer-column2{
+    width: 100%;}
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        height: 34px;
+        border-radius: 10px;
+        background-color: chartreuse;
+        display: block;
+        min-width: 230px;
+        padding: 20px 20px;
+        margin-bottom: 20px;
+        border: violet;
+
+    }
